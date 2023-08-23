@@ -18,7 +18,7 @@ words = word_tokenize(text,'english')
 stop_words = set(stopwords.words('english'))  # 使用英文停用词列表
 filtered_words = [word for word in words if word.lower() not in stop_words]
 
-# 统计词频
+# 统计词频1
 fdist = FreqDist(filtered_words)
 
 # 提取词频最高的前n个词作为关键词
