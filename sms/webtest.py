@@ -28,5 +28,5 @@ def main() :
 
 if __name__ == '__main__' :
 
-    #print(cc.get_company_all_page_data('https://www.onwsw.com/company/chengmowuzhi/','pages'))
-    main()
+    print(cc.get_company_all_page_data('https://www.onwsw.com/company/chengmowuzhi/','pages'))
+    #main()
